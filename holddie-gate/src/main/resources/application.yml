@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: holddie-gate
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://localhost:28080/eureka
+server:
+  port: 48080
